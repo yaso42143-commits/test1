@@ -75,7 +75,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("👋 أهلاً! أرسل اسم الفيديو للبحث.")
 
 def main():
-    TOKEN = "8513557954:AAGdH-YWL74LXuND7jCPEv8KOm8fPzI7LnA"  # ← استبدل بالتوكن الحقيقي من @BotFather
+    TOKEN = "8011123235:AAHlLzHctq9Frtp2ZBNYSVcHQpTYnZ8S7i4"  # ← استبدل بالتوكن الحقيقي من @BotFather
     app = ApplicationBuilder().token(TOKEN).build()
 
     app.add_handler(CommandHandler("start", start))
@@ -86,3 +86,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
